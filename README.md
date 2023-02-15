@@ -107,4 +107,3 @@ body{
 	opacity: .4;
 }
 ```
-<img src="https://heorhiizemlianko.github.io/3D-Layer-Image-Hover-Effect/3dimaje.html" width="512" height="256" border="0" style="border:0;"></img>
