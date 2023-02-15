@@ -18,3 +18,30 @@ This effect will show as one of the visualization effects of a product or object
 ## Task statement
 <p>A simple experiment with css & html and its possibilities.</p>
 <p>A demo implementation of this template can be viewed at this link:<a href="https://www.behance.net/gallery/41483809/Landing-page-of-the-application-PART_2"> <b>3D-Effect</b> </a></p>
+
+## Schematic representation of the HTML structure
+```
+html
+├── head
+│   ├── meta
+│   ├── title
+│   └── link
+└── body
+    ├── div.container
+        ├── img
+        ├── img
+        ├── img
+        └── img
+```
+
+## Schematic representation of the CSS structure
+```
+css
+├── body
+├── .container
+├── .container img
+├── .container:hover img: ntn-child(4)
+├── .container:hover img: ntn-child(3)
+├── .container:hover img: ntn-child(2)
+└── .container:hover img: ntn-child(1)
+```
