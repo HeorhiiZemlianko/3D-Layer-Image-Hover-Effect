@@ -16,7 +16,7 @@ The main goal of this project is to develop an effect that will create a 3D feel
 This effect will show as one of the visualization effects of a product or object in a presentation or project.
 
 ## Task statement
-<p>A simple experiment with css & html and its possibilities.</p>
+<p>A simple experiment with <b>css & html</b> and its possibilities.</p>
 <p>A demo implementation of this template can be viewed at this link:<a href="https://heorhiizemlianko.github.io/3D-Layer-Image-Hover-Effect/3dimaje.html"> <b>3D-Effect</b> </a></p>
 
 ## Schematic representation of the HTML structure
