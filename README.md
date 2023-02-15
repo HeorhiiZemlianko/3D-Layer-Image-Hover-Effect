@@ -45,3 +45,65 @@ css
 ├── .container:hover img: ntn-child(2)
 └── .container:hover img: ntn-child(1)
 ```
+
+## Code from the project
+- HTML
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>3D Layer Image Hover Effect</title>
+	<link rel="stylesheet" type="text/css" href="3dimaje.css">
+</head>
+<body>
+	<div class="container">
+		<img src="05_Navigation_Menu.jpg">
+		<img src="05_Navigation_Menu.jpg">
+		<img src="05_Navigation_Menu.jpg">
+		<img src="05_Navigation_Menu.jpg">
+	</div>
+</body>
+</html>
+```
+- CSS
+```css
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.container{
+	position: relative;
+	width: 250px;
+	height: 415px;
+	background: rgba(0,0,0,0.1);
+	transform: rotate(-30deg) skew(25deg);
+	transition: 0.5s;
+}
+.container img{
+	position: absolute;
+	width: 100%;
+	transition: 0.5s;
+}
+.container:hover img:nth-child(4){
+	transform: translate(120px, -120px);
+	opacity: 1;
+}
+.container:hover img:nth-child(3){
+	transform: translate(90px, -90px);
+	opacity: .8;
+}
+.container:hover img:nth-child(2){
+	transform: translate(60px, -60px);
+	opacity: .6;
+}
+.container:hover img:nth-child(1){
+	transform: translate(30px, -30px);
+	opacity: .4;
+}
+```
